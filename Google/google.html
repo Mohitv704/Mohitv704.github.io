@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Google.com</title>
+	<style type="text/css" media="screen">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Roboto, 'Segoe UI', tahoma, sans-serif;
+		}
+		.main{
+			/* border: 3px solid black; */
+		}
+		nav{
+			/* border: 5px solid red; */
+			background-color: #e6e6e6;
+			height: 4.2vh;
+		}
+		nav ul{
+			display: flex;
+		}
+		nav li{
+			list-style: none;
+			/* border: 1px solid black; */
+
+			/* display: inline-block; */
+		}
+		nav li a{
+			/* border: 1px solid green; */
+			text-decoration: none;
+			color: black;
+			opacity: 0.9;
+			font-size: 0.9rem;
+		}
+		nav ul img{
+			/* border: 1px solid black; */
+			/* border-radius: 30px; */
+			width: 15px;
+			height: 15px;
+			margin: 3px 3px auto 7px;
+			float: right;
+
+		}
+		ul .add{
+			width: 12px;
+			height: 15px;
+			margin-left: 10px;
+		}
+		.newtab{
+			/* border: 1px solid black; */
+			width: 17vw;
+			height: 4vh;
+			background-color: white;
+			border-bottom-right-radius: 10px;
+		}
+		.newtab a{
+			/* border: 1px solid black; */
+			margin: auto 0 auto 10px;
+			
+		}
+		.snav{
+			text-align: center;
+
+		}
+		.second{
+			 /* border: 1px solid black; */
+			display: flex;
+			margin: auto;
+			margin: 5px 0;
+		}
+		.one, .two{
+			/* border: 1px solid black; */
+			display: flex;
+			width: 20px;
+			height: 20px;
+			margin: 3px 2px 2px 5px;
+			padding: 1px 1.5px;
+			opacity: 0.5;
+
+		}
+		.three{
+			/* border: 1px solid black; */
+			display: flex;
+			width: 20px;
+			height: 20px;
+			margin: 3px 2px 2px 5px;
+			padding: 1px 1.5px;
+			opacity: 0.7;
+
+		}
+		.four{
+			border: 1px solid #e6e6e6;
+			/* border-color: #e6e6e6; */
+			border-radius: 30px;
+			width: 86vw;
+			height: 4vh;
+			display: flex;
+			margin: 0 13px 0 10px;
+			background-color: #f3f3f3;
+
+		}
+		.four img{
+			/* border: 1px solid black; */
+			/* border-radius: 30px; */
+			width: 2px;
+			height: 15px;
+			margin: auto 3px auto 7px;
+			flex: 1;
+
+		}
+		.fsearch{
+			/* border: 1px solid orange; */
+			border-radius: 30px;
+			border: hidden;
+			width: 82vw;
+			height: 4vh;
+			background-color: #f3f3f3;
+
+		}
+
+		.five{
+			/* border: 1px solid black; */
+			border-radius: 50%;
+			display: flex;
+			width: 23px;
+			height: 25px;
+			margin: auto 5px auto 0;
+
+		}
+		.five img{
+			/* border: 1px solid black; */
+			border-radius: 50%;
+			width: 23px;
+			height: 25px;
+		}
+
+		.six{
+			/* border: 1px solid black; */
+			display: flex;
+			width: 18px;
+			height: 18px;
+			margin: auto;
+			padding: 1px 1px;
+			margin-right: 5px;
+			opacity: 0.6;
+
+		}
+		.google{
+			/* border: 3px solid orange; */
+			width: 92vw;
+			height: 90vh;
+			margin: auto;
+		}
+		.google h1{
+			margin: auto;
+			/* border: 3px solid red; */
+			font-family: Roboto, 'Segoe UI', tahoma, sans-serif;
+			color: ;
+			font-size: 5.2rem;
+			font-weight: 500;
+			margin-top: 15vh;
+			margin-bottom: 6vh;
+			opacity: 0.13;
+		}
+		.gsearch{ 
+			margin: auto;
+			border: 2px solid white;
+			border-radius: 30px;
+			width: 80vh;
+			height: 5.8vh;
+			display: flex;
+			box-shadow: 0 0 10px grey;
+		}
+		.gsearch img{ 
+			margin: auto;
+			/* border: 1px solid black; */
+			/* border-radius: 30px; */
+			width: 18px;
+			height: 20px;
+			/* flex: 1; */
+		}
+		.gsearch .search{ 
+			margin: auto;
+			/* border: 1px solid red; */
+			border: hidden;
+			margin: -2px 0 0 3px ;
+			border-radius: 30px;
+			font-size: 1.05rem;
+			font-weight: 400;
+			width: 70vh;
+			height: 6vh;
+		}
+
+	</style>
+	
+</head>
+
+<body>
+	<div class="main">
+		<nav>
+			<ul>
+				<li class="newtab">
+					<a href="#">New Tab</a>
+					<img src="cross.svg" alt="">
+				</li>
+				<img src="add.svg" alt="" class="add">
+				
+			</ul>
+		</nav>
+		<div class="second">
+			<div class="one">
+				<img src="left.svg" alt="">
+			</div>
+
+			<div class="two">
+				<img src="right.svg" alt="">
+			</div>
+
+			<div class="three">
+				<img src="reload.svg" alt="">
+			</div>
+
+			<div class="four">
+				<img src="google.svg" alt="">
+				<input type="search" name="search" class="fsearch">
+				<img src="star.png" alt="">
+			</div>
+
+			<div class="five">
+				<img src="mohit.jpg" alt="">
+			</div>
+	
+			<div class="six">
+				<img src="menu.svg" alt="">
+			</div>
+		</div>	
+		<div class="snav">
+			
+				<p class="bookmarks">Bookmarks</p>
+		</div><hr>
+
+		<div  class="google">
+			<center><h1>Google</h1></center>
+
+			<div class="gsearch">
+				<img src="search.svg" alt="">
+
+				<input type="search" name="search" placeholder="Search Google or type a URL" class="search">
+
+				<img src="microphone.svg" alt="">
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
